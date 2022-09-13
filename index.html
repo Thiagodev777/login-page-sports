@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Login Page" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <body onload="rights()">
+    <main class="main">
+      <div class="container">
+        <div class="container-box-form">
+          <div class="container-form">
+            <h1>Welcome Back</h1>
+            <p class="sub-title">Welcome back! Please enter your details.</p>
+            <div class="container-form-control">
+              <form action="#" method="POST">
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="Email"
+                    id="email"
+                    autofocus
+                    required
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <div>
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    name="Password"
+                    id="password"
+                    required
+                    placeholder="Enter your password"
+                  />
+                </div>
+
+                <div class="container-settings-form">
+                  <div>
+                    <input type="checkbox" name="" id="checkbox" />Remember me
+                  </div>
+                  <a href="#">Forgot password</a>
+                </div>
+                <div class="container-form-login">
+                  <button type="submit">Sign in</button>
+                  <a href="#"
+                    ><img src="img/google_icon.svg" alt="" />
+                    <p>Sign in With Google</p></a
+                  >
+                </div>
+              </form>
+            </div>
+            <p id="registration">
+              Don't have an account? <a href="">Sign up to free!</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="container-image">
+          <img src="img/banner.svg" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+.main .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .container-box-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .container .container-box-form .container-form-control #email,  .main .container .container-box-form .container-form-control #password{
+  margin: 10px 0;
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0, 4px, 10px, #00000020;
+  outline: none;
+}
+.main .container .container-box-form .container-form-control #email,  .main .container .container-box-form .container-form-control #password::placeholder {
+  color: #636364;
+}
+.main .container .container-form {
+  align-self: flex-start;
+  margin-top: 100px;
+  padding: 20px;
+}
+.main .container .container-image {
+  flex: 1;
+}
+.main .container .container-image img {
+  width: 100%;
+  height: 100%;
+}
+.main .container-box-form .container-form h1 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #030303;
+}
+.main .container-box-form .container-form .sub-title {
+  font-weight: 400;
+  color: #636364;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.main .container-box-form .container-form .container-settings-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.main .container-box-form .container-form .container-settings-form a {
+  color: #181818;
+  text-decoration: none;
+}
+.main .container-box-form .container-form .container-settings-form a:hover {
+  text-decoration: underline;
+}
+.main .container-box-form .container-form .container-settings-form div #checkbox {
+  margin-right: 7px;
+}
+.main .container-box-form .container-form .container-form-login button {
+  background-color: #ea454c;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 0px 4px 10px rgba(233, 68, 75, 0.25);
+  margin: 15px 0;
+  cursor: pointer;
+}
+.main .container-box-form .container-form .container-form-login a {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  color: #000;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 15px 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.main .container-box-form .container-form .container-form-login a p {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.main .container-box-form .container-form #registration {
+  color: #595959;
+  text-align: center;
+  font-weight: 500;
+  line-height: 15px;
+  font-size: 13px;
+}
+.main .container-box-form .container-form #registration a {
+  color: #ea454c;
+  text-decoration: none;
+}
+.main .container-box-form .container-form #registration a:hover {
+  text-decoration: underline;
+} 
+
+
+@media screen and (max-width: 1000px){
+  .container-image {
+    display: none;
+  }
+  .main .container {
+  height: 100vh;
+  }
+}
+
+
+
+
+
